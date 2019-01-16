@@ -1,0 +1,130 @@
+<resources>
+
+    <!--
+    /**
+     * I have put a lot of effort to ensure that everything is working fine. If you find any problem
+     * feel free to contact me via the Codecanyon item's comment section or send me a personal
+     * message from here: https://codecanyon.net/user/neurondigital?ref=neurondigital#contact
+     *
+     * Thanks for buying this Template!
+     * Check out my other products on CodeCanyon: http://codecanyon.net/user/neurondigital/portfolio?ref=neurondigital
+     */
+    -->
+
+    <!-- General -->
+    <string name="app_name">Layar Islam</string>
+
+
+    <!-- Navigation Drawer -->
+    <string name="nav_news_feed">Home</string>
+    <string name="nav_top_stories">Top Stories</string>
+    <string name="nav_bookmarks">Bookmarked</string>
+    <string name="nav_categories">Menu</string>
+    <string name="nav_info">About Us</string>
+    <string name="nav_go_premium">Go Premium</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_categories_more">more</string>
+
+
+    <!-- Search -->
+    <string name="search">search</string>
+
+    <!-- Comments screen -->
+    <string name="comments">Comments</string>
+    <string name="action_comment">Comment</string>
+    <string name="action_refresh">Reload</string>
+
+
+    <!-- Categories screen -->
+    <string name="categories_page_title">Menu</string>
+
+
+    <!-- Bookmark Screen -->
+    <string name="Bookmark_page_title">Bookmarked</string>
+    <string name="Bookmark">Bookmark</string>
+    <string name="empty">No News</string>
+
+
+    <!-- News Articles -->
+    <string name="breaking">Breaking</string>
+    <string name="back">Back</string>
+    <string name="Top_news">Top News</string>
+    <string name="News_Feed">News Feed</string>
+    <string name="photos_count">{faw-camera} %1$s photos</string>
+    <string name="share_icon_title">Share</string>
+
+
+    <!-- Info Screen -->
+    <string name="info_page_title">Info</string>
+
+
+    <!-- Premium screen -->
+    <string name="premium_title">Go Premium</string>
+    <string name="premium_purchase">GO PREMIUM  </string>
+    <string name="premium_noads">No Ads</string>
+
+
+    <!-- settings screen -->
+    <string name="settings_title">Settings</string>
+    <string name="pref_enable_push_notifications_title">General Notifications</string>
+    <string name="pref_enable_push_notifications_summery">Receive notifications for general news.</string>
+    <string name="pref_enable_push_notifications_breaking_title">Breaking News</string>
+    <string name="pref_enable_push_notifications_breaking_summery">Receive notifications for breaking news.</string>
+
+
+    <!-- preference save key (to save bookmarks in user phone) -->
+    <string name="save_preference_name">zitech_app</string>
+
+
+    <!-- Pretty Time -->
+    <string name="date_util_unit_second">sec</string>
+    <string name="date_util_unit_seconds">sec</string>
+    <string name="date_util_unit_minute">min</string>
+    <string name="date_util_unit_minutes">mins</string>
+    <string name="date_util_suffix">ago</string>
+
+
+    <!-- Internet error -->
+    <string name="no_internet_error_title">No Internet</string>
+    <string name="no_internet_error">No Internet Detected. Please turn on your Wifi</string>
+
+
+    <!--SHARE-->
+    <string name="share_message">Check out this Article:</string>
+
+
+    <!--RATE-->
+    <!-- link is created automatically from package. Make sure package id is the same as the one used in google play -->
+    <string name="unable_to_reach_market">Error reaching market. Please check your internet connection</string>
+    <integer name="rate_shows_after_X_starts">5</integer>
+    <string name="rate_title">Please Rate us</string>
+    <string name="rate_text">If you like the app, feel free to leave a good rating.</string>
+
+
+    <!-- Alert -->
+    <string name="Alert_accept">OK</string>
+    <string name="Alert_cancel">Cancel</string>
+
+
+    <!--Agent/owner email-->
+    <string name="email_no_email">There are no email clients installed.</string>
+    <string name="email_send_email">Send email...</string>
+
+
+    <!-- Admob ad unit ids - Get yours from Admob: https://www.google.com/admob/-->
+    <string name="interstitial_ad"></string>
+    <integer name="ad_shows_after_X_clicks">5</integer>
+    <string name="banner_ad"></string>
+    <!--<string name="banner_ad"></string>-->
+
+
+    <!--Google Analytics id - Get yours from Google Analytics: https://analytics.google.com/analytics/web/-->
+    <string name="google_analytics_id"></string>
+
+
+    <!--Deep Link Sharing url - This url does 2 features:-->
+    <!--1) It is the link shared when the share button is pressed, along with the property id-->
+    <!--2) The app will listen for this url, so when it is opened the app will open.-->
+    <string name="deep_link">https://sholatdulu.com/layarislam/</string>
+
+</resources>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "15556051791",
+    "firebase_url": "https://zitech-b0f2c.firebaseio.com",
+    "project_id": "zitech-b0f2c",
+    "storage_bucket": "zitech-b0f2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15556051791:android:ec17afd5be923840",
+        "android_client_info": {
+          "package_name": "com.zitech.apps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15556051791-oonkdjr7i8pslbcapi68u2k7ru3n6q86.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSFClO4NbnuRKZE1BgrjzfKo3dxz7zy6Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

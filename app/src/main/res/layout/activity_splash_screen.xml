@@ -1,0 +1,65 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#E3F2FD"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/splash"
+        android:id="@+id/logo"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Layar Ceramah Islam"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:id="@+id/center"
+        android:layout_alignBottom="@+id/logo"
+        android:layout_alignRight="@+id/logo"
+        android:layout_alignEnd="@+id/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dengar Ceramah Kapan Saja, Dan Dimana Saja "
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:id="@+id/slogan"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_below="@+id/center"
+        />
+    <TextView
+        android:id="@+id/tv"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_above="@+id/pb"
+        android:layout_toRightOf="@+id/logo"
+        android:layout_toEndOf="@+id/logo" />
+
+    <ProgressBar
+        android:id="@+id/pb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.Holo.Light.ProgressBar.Horizontal"
+        android:indeterminate="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
